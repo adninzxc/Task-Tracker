@@ -114,10 +114,6 @@ public class TaskManager {
         return false;
     }
 
-    /**
-     * Deletes all tasks from the task manager.
-     * @return The number of tasks that were deleted
-     */
     public int clearAllTasks() {
         int count = tasks.size();
         tasks.clear();
